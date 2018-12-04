@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 ##############################
-# automatically commit a file every x seconds
+# automatically commit a file every n seconds
 #
 # run like:
 #     autocommit.rb [filename] [n]
@@ -10,7 +10,7 @@
 # If n is missing, we use 10 sec; if n<2 we use 2.
 #
 # You need to be in the git repository that contains the file,
-# and you need to have already set up a remote
+# and you need to have already set up a remote.
 
 
 require 'date'
