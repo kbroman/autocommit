@@ -2,7 +2,7 @@
 
 run like:
 
-    autocommit.rb [filename] [x]
+    autocommit.rb [filename] [n]
 
 where `filename` is the file to repeatedly commit and push
 and `n` is the number of seconds to delay between attempts.
