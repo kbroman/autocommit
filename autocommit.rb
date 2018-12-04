@@ -22,7 +22,7 @@ end
 
 # get time from command line argument; if missing use 5 sec
 if ARGV.length < 2
-    time = 5
+    time = 10
 else
     time = ARGV[1].to_i
 end
